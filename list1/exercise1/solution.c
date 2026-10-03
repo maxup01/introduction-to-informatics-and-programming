@@ -24,7 +24,7 @@ uint64_t *from_c_to_dec(uint64_t base, uint64_t num) {
         while (num > 0) {
                 *dec += p * (num % 10);
                 num /= 10;
-                p *= 2;
+                p *= base;
         }
 
         return dec;
