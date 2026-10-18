@@ -1,0 +1,18 @@
+def greatest_common_divisor(a: int, b: int) -> int:
+    if b > a:
+        pom = b
+        b = a
+        a = pom
+
+    while 0 != a % b:
+        pom = a % b
+        a = b
+        b = pom
+
+    return b
+
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print(f"Greatest common divisor is: {greatest_common_divisor(a, b)}")
