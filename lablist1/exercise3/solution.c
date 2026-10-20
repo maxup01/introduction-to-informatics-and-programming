@@ -1,5 +1,5 @@
 // solution.c
-// Maks Garczynski
+// Maksymilian Garczynski
 
 #include <stdint.h>
 #include <stdio.h>

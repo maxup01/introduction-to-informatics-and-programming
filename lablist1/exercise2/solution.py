@@ -1,5 +1,5 @@
 # solution.py
-# Maks Garczynski
+# Maksymilian Garczynski
 
 import sys
 from typing import Optional

@@ -1,5 +1,5 @@
 # solution.py
-# Maks Garczynski
+# Maksymilian Garczynski
 
 
 def is_palindrome(num: int):

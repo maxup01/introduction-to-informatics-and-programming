@@ -1,5 +1,5 @@
 # solution.py
-# Maks Garczynski
+# Maksymilian Garczynski
 
 
 def greatest_common_divisor(a: int, b: int) -> int:
