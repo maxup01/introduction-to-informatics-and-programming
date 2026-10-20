@@ -1,3 +1,6 @@
+// solution.c
+// Maks Garczynski
+
 #include <stdint.h>
 #include <stdio.h>
 

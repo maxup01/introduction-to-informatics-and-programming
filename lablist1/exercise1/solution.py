@@ -1,3 +1,7 @@
+# solution.py
+# Maks Garczynski
+
+
 def greatest_common_divisor(a: int, b: int) -> int:
     if b > a:
         pom = b

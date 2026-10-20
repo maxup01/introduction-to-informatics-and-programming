@@ -1,3 +1,6 @@
+-- solution.adb
+-- Maks Garczynski
+
 with Ada.Text_IO;       use Ada.Text_IO;
 with Ada.Command_Line;  use Ada.Command_Line;
 with Ada.Float_Text_IO; use Ada.Float_Text_IO;

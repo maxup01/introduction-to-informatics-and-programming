@@ -1,3 +1,7 @@
+# solution.py
+# Maks Garczynski
+
+
 def is_palindrome(num: int):
     pom = 0
     pom_num = num

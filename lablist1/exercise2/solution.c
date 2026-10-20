@@ -1,3 +1,6 @@
+// solution.c
+// Maks Garczynski
+
 #include <stdio.h>
 
 void solve_quadratic_equation(double a, double b, double c) {

@@ -1,3 +1,6 @@
+# solution.py
+# Maks Garczynski
+
 import sys
 from typing import Optional
 

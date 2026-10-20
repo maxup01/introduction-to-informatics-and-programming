@@ -1,3 +1,6 @@
+// solution.py
+// Maks Garczynski
+
 #include <stdint.h>
 #include <stdio.h>
 
