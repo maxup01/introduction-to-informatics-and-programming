@@ -25,7 +25,7 @@ int main() {
         if (!scanf("%lu", &a))
                 return 1;
 
-        printf("Enter first number:");
+        printf("Enter second number:");
         if (!scanf("%lu", &b))
                 return 1;
 
