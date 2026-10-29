@@ -13,19 +13,13 @@ procedure Solution is
       Y   : Unsigned_64 := B;
       Pom : Unsigned_64;
    begin
-      if Y > X then
-         Pom := X;
-         X := Y;
-         Y := Pom;
-      end if;
-
-      while 0 /= X mod Y loop
+      while 0 /= Y loop
          Pom := X mod Y;
          X := Y;
          Y := Pom;
       end loop;
 
-      return Y;
+      return X;
    end Greatest_Common_Divisor;
 
    A, B : Unsigned_64;
