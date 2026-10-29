@@ -8,12 +8,12 @@ def greatest_common_divisor(a: int, b: int) -> int:
         b = a
         a = pom
 
-    while 0 != a % b:
+    while b != 0:
         pom = a % b
         a = b
         b = pom
 
-    return b
+    return a
 
 
 a = int(input("Enter first number: "))
