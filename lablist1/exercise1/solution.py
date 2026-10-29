@@ -3,11 +3,6 @@
 
 
 def greatest_common_divisor(a: int, b: int) -> int:
-    if b > a:
-        pom = b
-        b = a
-        a = pom
-
     while b != 0:
         pom = a % b
         a = b
