@@ -25,15 +25,15 @@ int main() {
         uint64_t b = 0;
 
         printf("Enter first number:");
-        if (!scanf("%lu", &a))
+        if (!scanf("%llu", &a))
                 return 1;
 
         printf("Enter second number:");
-        if (!scanf("%lu", &b))
+        if (!scanf("%llu", &b))
                 return 1;
 
         uint64_t gcd = greatest_common_divisor(a, b);
-        printf("Greatest common divisor of two given numbers is: %lu", gcd);
+        printf("Greatest common divisor of two given numbers is: %llu", gcd);
 
         return 0;
 }
