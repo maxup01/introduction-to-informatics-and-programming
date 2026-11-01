@@ -1,3 +1,6 @@
+// solution.py
+// Maksymilian Garczynski
+
 #include <math.h>
 #include <stddef.h>
 #include <stdint.h>
@@ -8,7 +11,7 @@ int is_prime(uint64_t num) {
                 return 0;
         }
 
-        for (size_t i = 2; i < sqrt(num); i++) {
+        for (size_t i = 2; i < (size_t)sqrt(num) + 1; i++) {
                 if (0 == num % i) {
                         return 0;
                 }
