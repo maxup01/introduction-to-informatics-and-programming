@@ -18,17 +18,17 @@ int is_palindrome(uint64_t num) {
         return pom == num;
 }
 
-int main() {
+int main(void) {
         uint64_t number = 0;
 
         printf("Enter number: ");
-        if (!scanf("%lu", &number))
+        if (!scanf("%llu", &number))
                 return 1;
 
         if (is_palindrome(number))
-                printf("%lu is a palindrome", number);
+                printf("%llu is a palindrome", number);
         else
-                printf("%lu is not a palindrome", number);
+                printf("%llu is not a palindrome", number);
 
         return 0;
 }

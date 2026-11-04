@@ -36,7 +36,7 @@ void print_factorization(uint64_t num) {
         printf("\n");
 }
 
-int main() {
+int main(void) {
         uint64_t num = 0;
 
         printf("Enter number:");

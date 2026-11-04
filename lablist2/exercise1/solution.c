@@ -20,7 +20,7 @@ uint64_t greatest_common_divisor(uint64_t a, uint64_t b) {
         return b;
 }
 
-int main() {
+int main(void) {
         uint64_t a = 0;
         uint64_t b = 0;
 

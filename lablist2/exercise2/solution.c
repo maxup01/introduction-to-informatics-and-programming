@@ -20,7 +20,7 @@ int is_prime(uint64_t num) {
         return 1;
 }
 
-int main() {
+int main(void) {
         uint64_t num = 0;
 
         printf("Enter number:");

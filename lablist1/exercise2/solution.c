@@ -18,7 +18,7 @@ void solve_quadratic_equation(double a, double b, double c) {
         }
 }
 
-int main() {
+int main(void) {
         double a = 0;
         double b = 0;
         double c = 0;
