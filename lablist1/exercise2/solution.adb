@@ -9,6 +9,10 @@ procedure Solution is
    procedure Solve_Quadratic_Equation (A, B, C : Float) is
       Delta_Value : Float := B * B - 4.0 * A * C;
    begin
+      if A = 0.0 then
+         return;
+      end if;
+
       Put_Line
         (Float'Image (A)
          & " * x^2 + "

@@ -24,7 +24,7 @@ int main(void) {
         double c = 0;
 
         printf("Enter a: ");
-        if (!scanf("%lf", &a))
+        if (!scanf("%lf", &a) || 0 == a)
                 return 1;
 
         printf("Enter b: ");
