@@ -18,7 +18,7 @@ k = int(input("Enter k: "))
 
 res = binomial(n, k)
 
-if res == 0:
+if 0 == res:
     print("Invalid inputs")
 else:
     print(f"Binomial of n = {n} and k = {k} is equal to {res}")
