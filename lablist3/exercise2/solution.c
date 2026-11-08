@@ -30,5 +30,10 @@ int main(void) {
 
         uint64_t res = binomial(n, k);
 
-        printf("Binomial of n = %llu and k = %llu is equal to %llu", n, k, res);
+        if (0 == res) {
+                printf("Invalid inputs");
+        } else {
+                printf("Binomial of n = %llu and k = %llu is equal to %llu", n,
+                       k, res);
+        }
 }
