@@ -39,7 +39,7 @@ int main(void) {
         uint64_t n = 0;
 
         printf("Enter n: ");
-        if (!scanf("%llu", &n)) {
+        if (!scanf("%llu", &n) || (0 == n)) {
                 printf("Invalid n");
 
                 return 1;
