@@ -1,10 +1,10 @@
 // solution.py
 // Maksymilian Garczynski
 
-#include <malloc.h>
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 uint64_t nth_prime(uint64_t n) {
         if (0 == n)
