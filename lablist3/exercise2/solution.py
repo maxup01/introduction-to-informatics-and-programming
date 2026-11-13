@@ -1,3 +1,7 @@
+# solution.adb
+# Maksymilian Garczyński
+
+
 def binomial(n: int, k: int) -> int:
     if k > n or n < 0 or k < 0:
         return 0

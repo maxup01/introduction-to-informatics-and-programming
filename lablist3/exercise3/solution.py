@@ -1,5 +1,5 @@
 # solution.py
-# Maksymilian Garczynski
+# Maksymilian Garczyński
 
 
 def nth_prime(n: int) -> int:

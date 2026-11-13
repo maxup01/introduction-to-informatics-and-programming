@@ -1,5 +1,5 @@
 // solution.py
-// Maksymilian Garczynski
+// Maksymilian Garczyński
 
 #include <stdbool.h>
 #include <stdint.h>

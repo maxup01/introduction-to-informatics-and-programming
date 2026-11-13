@@ -1,5 +1,5 @@
 # solution.py
-# Maksymilian Garczynski
+# Maksymilian Garczyński
 
 
 def is_prime(n: int) -> bool:
